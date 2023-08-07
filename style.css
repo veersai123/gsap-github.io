@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: white;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:black;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+#nav-part2{
+    display: flex;
+    gap: 35px;
+}
+#nav-part3{
+    display: flex;
+    gap: 35px;
+    align-items: center;
+}
+#nav h3{
+    text-transform: uppercase;
+}
+#nav h4{
+    text-transform: uppercase;
+}
+#nav button{
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    font-weight: 700px;
+    font-size: 16 px;
+
+}
+img{
+    height: 65px;
+}
+#main h1{
+    font-size: 100px; 
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main h1 span{
+    background-color: brown;
+    font-size: 25px;
+    height: 60px;
+    padding: 20px 40px;
+    border-radius: 50px;
+    margin: 0px 50px;
+  
+}
+#main #left-img{
+    height: 300px;
+    position: absolute;
+    top: 14%;
+
+    border-radius: 30px;
+}
+#main #right-img{
+    height: 170px;
+    position: absolute;
+    right: 5px;
+    bottom: 10%;
+    border-radius: 30px;
+}
+#main h1:nth-child(2)
+{
+    color: red;
+    margin-top: 50px;
+}
+h5{
+    position: absolute;
+    bottom: 10%;
+    left:50%;
+    transform:traslate(-50%,0);
+    font-size: 25px;
+}
+/* ============================= EPISODE 1================= */
+/* #box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+} */
+/* h1{
+    color: red;
+    font-size: 50px;
+}
+h2{
+    color: blue;
+    font-size: 40px;
+}
+h3{
+    color: white;
+    font-size: 30px;
+} */
+
+/* ============================= EPISODE 1================= */
